@@ -6,7 +6,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "build": "rm -rf .next && next build",
+    "build": "rm -rf .next && pnpm install && next build",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"
